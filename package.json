@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dist": "tsup src",
     "start:dev": "tsx --env-file=.env src/server.ts",
@@ -17,5 +18,8 @@
     "tsup": "^8.0.2",
     "tsx": "^4.7.1",
     "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "fastify": "^5.4.0"
   }
 }
