@@ -9,4 +9,5 @@ Definir dois endpoints para essa simples api que serão os de pilotos e o outro 
 
 Para facilitar e aumentar a velocidade de produção da Api vamos usar o boilerplate **Node Boilerpalte - Blue Edition** que já vem com um tempalte base de confugurações para começarmos a desenvolver a nossa aplicação.
 
--> **Boilerplate link:**  
+#### **Boilerplate link:** https://github.com/felipeAguiarCode/node-blue-boilerplate  
+
