@@ -1,9 +1,14 @@
 import Fastify from "fastify";
 import { drivers } from "./database/drivers";
 import { teams } from "./database/teams";
+import cors from '@fastify/cors'
+
+
 const server = Fastify({
     logger: true
 })
+
+server.register(cors)
 
 
 

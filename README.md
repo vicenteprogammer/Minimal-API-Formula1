@@ -177,6 +177,11 @@ server.get('/teams',(req,res)=>{
     return {teams}
 })
 ```
+
+### Implementção do CORS, algo bem importante para sua api poder ser coonsumida por outras aplicações
+```ts
+server.register(cors)
+```
 ### It's finish api
 
 ### **Você pode deixar sugestões ou até melhorar ela quem sabe usar em um projetinho...**
